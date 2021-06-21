@@ -2,27 +2,29 @@ body {
 	background: black;
 	font-family: "Roboto", sans-serif;
 }
-* {
-	border: 1px dashed red;
-	min-height: 10px;
-}
 .postcard {
 	margin: auto;
 	width: 400px;
 	height: 300px;
 	background: white;
 	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 .postcard-header {
 	display: flex;
+	align-content: stretch;
 }
 .postcard-header img {
 	width: 50px;
 	height: 50px;
 }
 .postcard-header h1 {
-	margin: auto;
 	flex-shrink: 2;
+	margin: auto;
+	text-align: left;
+	width: 350px;
 }
 .postcard-body {
 	display: flex;
@@ -35,18 +37,21 @@ p:first-child {
 	margin-top: 0px;
 }
 input {
+	border: 0px;
 	border-bottom: 1px solid gray;
 	margin-bottom: 5px;
-	font-size: 15px;
+	font-size: 17px;
 }
 p {
-	font-size: 15px;
+	font-size: 17px;
 	font-family: times new roman;
 }
 .postcard-footer {
 	text-align: center;
+	padding: 10px;
 }
 button {
-	background-color: gray;
+	background-color: lightgrey;
 	padding: 5px;
+	border: none;
 }
