@@ -5,26 +5,30 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>My postcard</title>
 		<link rel="stylesheet" href="styles.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
 	</head>
 	<body>
 		Hello from <strong>Earth</strong>
 		<div class="postcard">
-			<div class="upper">
-				<div class="title"><h1>My Postcard</h1></div>
-				<div class="image"><img src="https://raw.githubusercontent.com/breatheco-de/exercise-postcard/main/.learn/assets/4geeks.png" /></div>
+			<div class="postcard-header">
+				<h1>My Postcard</h1>
+				<img
+					src="https://raw.githubusercontent.com/breatheco-de/exercise-postcard/e63a7916530cc850bd92aa1c2e19191837fb5c80/.learn/assets/4geeks.png"
+				/>
 			</div>
-			<div class="lower">
-				<div class="text">
+			<div class="postcard-body">
+				<div class="body-left">
 					<p>Look how awesome! this is a postcard that I created using CSS3 and HTML5 during my 4Geek Academy Course!</p>
 					<p>I cant wait to start doing more fun stuff.</p>
 				</div>
-				<div class="data">
+				<div class="body-right">
 					<input type="text" placeholder="Some name" />
 					<input type="text" placeholder="Some email" />
 					<input type="text" placeholder="Some comment" />
 				</div>
 			</div>
-			<div class="buttons">
+			<div class="postcard-footer">
 				<button type="button">Send my postcard</button>
 			</div>
 		</div>
